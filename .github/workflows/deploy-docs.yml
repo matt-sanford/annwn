@@ -36,6 +36,7 @@ jobs:
 
       - name: Install Deps
         run: pnpm install --frozen-lockfile
+        working-directory: .
 
       - name: Build Docs
         env:
