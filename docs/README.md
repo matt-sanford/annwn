@@ -25,8 +25,8 @@ features:
     details: Bodies are distinct from souls. Souls are made of a magical substance and has been scientifically proven.
   
   - title: Class
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+    details: Your access to Magic is directly proportional to your class standing.
+
+  - title: Another Thing!
+    details: fill this out
 ---
