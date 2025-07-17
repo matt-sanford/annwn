@@ -27,7 +27,6 @@ jobs:
           version: 8.9.0
           run_install: false
 
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -35,7 +34,7 @@ jobs:
           cache: pnpm
 
       - name: Install Deps
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
         working-directory: .
 
       - name: Build Docs
